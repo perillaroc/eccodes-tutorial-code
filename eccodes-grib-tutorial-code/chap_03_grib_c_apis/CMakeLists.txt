@@ -1,0 +1,6 @@
+add_subdirectory(load_from_file)
+add_subdirectory(get_codes_info)
+add_subdirectory(get_grib_info)
+add_subdirectory(indexed_access)
+add_subdirectory(codes_get)
+add_subdirectory(packing_type)
