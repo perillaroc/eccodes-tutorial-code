@@ -13,8 +13,10 @@ def cli(file_path):
             date = eccodes.codes_get(handle, "dataDate")
             type_of_level = eccodes.codes_get(handle, "typeOfLevel")
             level = eccodes.codes_get(handle, "level")
-            values = eccodes.codes_get_values(handle, "values")
+            values = eccodes.codes_get_array(handle, "values")
             value = values[-1]
+            values_array = eccodes.codes_get_values(handle, "values")
+            value_array = values[-1]
 
             print(date, type_of_level, level, value)
 
