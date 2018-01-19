@@ -33,7 +33,7 @@ int main(int argc, char** argv)
         values[i] = v;
         v++;
     }
-    codes_set_long(h, "bitsPerValue", 16);
+    // codes_set_long(h, "bitsPerValue", 16);
     codes_set_double_array(h, "values", values, value_size);
 
     codes_write_message(h, file_path, "wb");
