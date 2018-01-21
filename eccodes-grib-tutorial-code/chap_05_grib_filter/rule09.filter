@@ -1,0 +1,3 @@
+if (shortName is 't') {
+    write;
+}

@@ -1,0 +1,2 @@
+transient mystep = step + 24;
+print "step = [step] mystep = [mystep]";

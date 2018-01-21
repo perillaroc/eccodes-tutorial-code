@@ -1,0 +1,2 @@
+# one column 3 decimal digits
+print "[distinctLatitudes!1%3.f]";

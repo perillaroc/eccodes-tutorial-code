@@ -1,0 +1,9 @@
+print "processing [paramId] [shortName] [stepType]";
+switch (shortName) {
+    case "gh":
+        print "processing gh";
+    case "t":
+        print "processing t";
+    default:
+        print "Unexpected parameter";
+}

@@ -1,0 +1,2 @@
+# Creating multiple files
+write "[centre]_[typeOfLevel]_[level].grib[edition]";

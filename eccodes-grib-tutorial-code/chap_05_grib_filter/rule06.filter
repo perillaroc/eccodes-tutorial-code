@@ -1,0 +1,2 @@
+set edition = 1;
+write "[file][edition]";
