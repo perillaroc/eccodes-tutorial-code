@@ -14,3 +14,4 @@ find_library(
 )
 
 add_subdirectory(chap_03_grib_c_apis)
+add_subdirectory(chap_06_advanced_topics)
